@@ -1,8 +1,9 @@
 <?php
 // Basic connection settings
-$databaseHost = '<host_address>';
-$databaseUsername = '<user_name>';
-$databasePassword = '******';
+$databaseHost = 'mariadb';
+// $databaseHost = '127.0.0.1';
+$databaseUsername = 'root';
+$databasePassword = 'qwerty';
 $databaseName = 'rolodex';
 
 // Connect to the database

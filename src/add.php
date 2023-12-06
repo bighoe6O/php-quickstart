@@ -2,6 +2,14 @@
 // Include database connection file
 include_once("config.php");
 
+$nameErr = "";
+$ageErr = "";
+$emailErr = "";
+
+$name = "";
+$age = "";
+$email = "";
+
 if(isset($_POST['update']))
 {	
 	// Retrieve record values
